@@ -1,1 +1,116 @@
+body { 
+  font-family: Arial, sans-serif; 
+}
+.header { 
+  background-color: #ffcc00; 
+  padding: 10px; 
+  text-align: center; 
+}
+.nav { 
+  background-color: #eee; 
+  padding: 10px; 
+}
+.nav ul { 
+  display: flex;
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+}
+.nav li { 
+  display: inline; 
+  margin-right: 10px; 
+}
+.main-content { 
+  text-align: center; 
+  padding: 20px; }
+.footer { 
+  background-color: #333; 
+  color: white; 
+  text-align: center; 
+  padding: 10px; 
+}
+
+.promotion-container {
+  background-color: #FFC72C;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.big-mac-title {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.big-mac-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.promotion-text p {
+  color: #000000;
+  margin: 20px 0;
+}
+
+.big-mac-deal {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.small-print {
+  font-size: 18px;
+}
+
+.big-mac-button {
+  background-color: #DA291C;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.burger-promotion-container {
+  background-color: #ffffff; /* Adjust the background color as needed */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.burger-image {
+  max-width: 50%; /* Adjust the width as needed */
+  height: auto;
+}
+
+.burger-promotion-text {
+  color: #000;
+  margin-left: 20px;
+}
+
+.burger-promotion-text h2 {
+  color: #DA291C; /* McDonald's red color */
+  font-family: 'Arial', sans-serif;
+}
+
+.burger-promotion-text p {
+  font-family: 'Arial', sans-serif;
+}
+
+.small-print {
+  font-size: 14px; /* Adjust the size as needed */
+}
+
+.burger-button {
+  background-color: #DA291C;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
 
