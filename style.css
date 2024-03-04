@@ -1,17 +1,23 @@
 body { 
   font-family: Arial, sans-serif; 
 }
-.header { 
-  background-color: #ffcc00; 
+.header {  
   padding: 10px; 
-  text-align: center; 
+  display: flex;
+  width:100%;
+  align-items: center;
+  justify-content:space-between;
+}
+.logo{
+  height:60px;
+  width: auto;
 }
 .nav { 
-  background-color: #eee; 
   padding: 10px; 
+  align-items: center;
+  display: flex;
 }
 .nav ul { 
-  display: flex;
   list-style-type: none; 
   margin: 0; 
   padding: 0; 
@@ -20,9 +26,54 @@ body {
   display: inline; 
   margin-right: 10px; 
 }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #000;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav2{
+  display: flex;
+  align-items: center;
+}
+.nav2 ul{
+  list-style-type: none; 
+}
+.nav2 li{
+  display:inline;
+  margin-right: 10px;
+}
+.order_button{
+  height: 75px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DA291C;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
 .main-content { 
   text-align: center; 
-  padding: 20px; }
+  padding: 20px; 
+}
 .footer { 
   background-color: #333; 
   color: white; 
@@ -112,5 +163,11 @@ body {
   cursor: pointer;
   margin-top: 20px;
   font-family: 'Arial', sans-serif;
+}
+.language-switcher {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
 }
 
