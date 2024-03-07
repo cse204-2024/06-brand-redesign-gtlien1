@@ -307,3 +307,55 @@ footer {
   text-align: center; 
   margin-top: 10px; 
 }
+
+@media only screen and (max-width: 900px) {
+
+  .New-Sauce,
+  .big-mac-promotion-container,
+  .burger-promotion-container,
+  .shamrock-promotion-container,
+  .join-our-team {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+
+  .new_sauce_img,
+  .big-mac-image,
+  .burger-image,
+  .shamrock-image,
+  .worker-image {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px; 
+  }
+
+
+  .sauce-promotion-text,
+  .promotion-text,
+  .burger-promotion-text,
+  .shamrock-promotion-text,
+  .team-promotion-text {
+    text-align: center;
+  }
+
+
+  .nav, .nav2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav ul, .nav2 ul {
+    text-align: center;
+  }
+
+  .nav li, .nav2 li {
+    display: block; 
+    margin: 10px 0; 
+  }
+
+
+  .order_button {
+    margin: 20px 0;
+  }
+}
